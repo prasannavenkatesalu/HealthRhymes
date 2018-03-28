@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        android:label="@string/app_name"
+        <activity
+            android:name=".ProteinIntake"
+            android:label="@string/title_activity_protein_intake"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

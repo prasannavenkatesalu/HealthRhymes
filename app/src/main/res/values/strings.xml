@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Rhymes Of Health</string>
     <string name="health_information">Health Information</string>
+    <string name="protein_intake">Protein Intake</string>
     <string name="next_button_text">Next</string>
 
     <string name="hi_1">Do you have any allergy towards the following products?</string>
+    <string name="title_activity_protein_intake">ProteinIntake</string>
 </resources>
