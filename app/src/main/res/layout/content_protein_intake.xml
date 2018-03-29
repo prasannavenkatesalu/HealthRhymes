@@ -11,13 +11,14 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="0dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="388dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="6dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/tblProteinMoS"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView"
@@ -27,18 +28,38 @@
             android:layout_centerVertical="true"
             android:text="@string/protein_intake"
             android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="42dp"
-            tools:layout_editor_absoluteY="29dp" />
+            tools:layout_editor_absoluteY="29dp"
+
+            />
+
+
     </RelativeLayout>
 
+    <TextView
+        android:id="@+id/tblProteinMoS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+
+        android:text="@string/protein_table_MoS"
+        app:layout_constraintBottom_toTopOf="@+id/tblProtein"
+        app:layout_constraintEnd_toStartOf="@+id/tblProtein"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tblProtein" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="0dp"
         android:layout_height="45dp"
+        android:layout_marginBottom="31dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
@@ -56,21 +77,23 @@
             android:text="@string/next_button_text" />
     </RelativeLayout>
 
+    <TableLayout
+        android:id="@+id/tblProtein"
+        android:layout_width="350dp"
+        android:layout_height="373dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
 
-        <TableLayout
-            android:id="@+id/tblProtein"
-            android:layout_width="350dp"
-            android:layout_height="372dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
-            android:layout_width="fill_parent"
 
-        </TableLayout>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
 
+
+    </TableLayout>
 
 
 

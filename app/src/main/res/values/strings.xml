@@ -6,4 +6,5 @@
 
     <string name="hi_1">Do you have any allergy towards the following products?</string>
     <string name="title_activity_protein_intake">ProteinIntake</string>
+    <string name="protein_table_MoS">Enter Your Amount of Protein In Common Food</string>
 </resources>
