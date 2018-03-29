@@ -86,7 +86,7 @@ public class ProteinIntake extends AppCompatActivity {
             row.addView(tv1);
 
             TextView tv2 = new TextView(this);
-            tv2.setText("Protein Amount/week in gm");
+            tv2.setText("Enter Amount/Week");
             tv2.setTextColor(Color.BLUE);
             //tv2.setLayoutParams(tlp);
             row.addView(tv2);
@@ -99,7 +99,7 @@ public class ProteinIntake extends AppCompatActivity {
             row.addView(tv3);
             tblProtein.addView(row);
 
-            for(int i = 0; i< 8; i++)
+            for(int i = 0; i< 100; i++)
             {
                 TableRow tbrow = new TableRow(this);
                 if(i%2==0) {
