@@ -4,7 +4,65 @@
     <string name="protein_intake">Protein Intake</string>
     <string name="next_button_text">Next</string>
 
-    <string name="hi_1">Do you have any allergy towards the following products?</string>
+    <string name="hi_1">Do you have any allergy \ntowards the following products?</string>
+    <string name="hi_1_option1">Milk</string>
+    <string name="hi_1_option2">Gluten</string>
+
+    <string name="hi_2">Are you a smoker?</string>
+    <string name="yesRdbOption">Yes</string>
+    <string name="noRdbOption">No</string>
+
+    <string name="hi_3">Do you consume Alcohol?</string>
+    <string name="hi_4">Do you suffer from any one of \nthe following known \ndiseases/symptoms?</string>
+    <string-array name="knownDiseasesArr">
+        <item>None of the Below</item>
+        <item>Diabetes- Type l</item>
+        <item>Diabetes- Type ll</item>
+        <item>Hypertension</item>
+        <item>Constipation</item>
+        <item>Acidity</item>
+        <item>Joint Pain</item>
+        <item>Knee Pain</item>
+        <item>Sexual Wellness</item>
+        <item>Stress</item>
+        <item>Anemia</item>
+        <item>High Level of Cholesterol</item>
+        <item>High Level of Uric Acid</item>
+        <item>Heart Related Problems</item>
+        <item>Bleeding Gums</item>
+        <item>Low Blood Pressure</item>
+        <item>Celiac Disease</item>
+        <item>Lactose Intolerance</item>
+        <item>Cough &amp; Cold</item>
+        <item>Indigestion</item>
+        <item>Protein Energy Malnutrition</item>
+        <item>Muscle Weakness</item>
+        <item>Sleeplessness</item>
+
+    </string-array>
+
+    <string name="hi_5">Which of the following known \ndiseases/symptoms is present \nin your Family History?</string>
+    <string-array name="familyKnownDiseasesArr">
+        <item>Heart Related Problem</item>
+        <item>Diabetes</item>
+        <item>Hypertension</item>
+        <item>Obesity</item>
+        <item>Bone Related Problems</item>
+        <item>None of the Above</item>
+    </string-array>
+
+    <string name="hi_6">Do you have any one of the \nfollowing Vitamin Deficiencies?</string>
+    <string-array name="vitaminDefArr">
+        <item>Vitamin B12</item>
+        <item>Vitamin D</item>
+        <item>Hypertension</item>
+        <item>Obesity</item>
+        <item>Bone Related Problems</item>
+        <item>None of the Above</item>
+    </string-array>
+
     <string name="title_activity_protein_intake">ProteinIntake</string>
     <string name="protein_table_MoS">Enter Your Amount of Protein In Common Food</string>
+
+
 </resources>
