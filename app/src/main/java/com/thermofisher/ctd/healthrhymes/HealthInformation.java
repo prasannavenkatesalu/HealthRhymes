@@ -18,8 +18,7 @@ public class HealthInformation extends AppCompatActivity {
 
 
     String[] knownDiseaseslistItems;
-    ArrayList<String> selectedItems = new ArrayList<>();
-    ListView mulList;
+    ListView knownDiseaseList,familyKnownList,deficiencyVitaminList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +27,23 @@ public class HealthInformation extends AppCompatActivity {
 
 
 
-        mulList = (ListView)findViewById(R.id.knownList);
-        mulList.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+        knownDiseaseList = (ListView)findViewById(R.id.knownList);
+        knownDiseaseList.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         knownDiseaseslistItems = getResources().getStringArray(R.array.knownDiseasesArr);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.multipleitemselection,R.id.txt_mul_lst,knownDiseaseslistItems);
-        mulList.setAdapter(adapter);
+        ArrayAdapter<String> knownDiseaseAdapter = new ArrayAdapter<String>(this,R.layout.multipleitemselection,R.id.txt_mul_lst,knownDiseaseslistItems);
+        knownDiseaseList.setAdapter(knownDiseaseAdapter);
+
+        familyKnownList = (ListView)findViewById(R.id.familyknownList);
+        familyKnownList.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+        knownDiseaseslistItems = getResources().getStringArray(R.array.familyKnownDiseasesArr);
+        ArrayAdapter<String> familyKnownAdapter = new ArrayAdapter<String>(this,R.layout.multipleitemselection,R.id.txt_mul_lst,knownDiseaseslistItems);
+        familyKnownList.setAdapter(familyKnownAdapter);
+
+        knownDiseaseList = (ListView)findViewById(R.id.deficiencyVitamins);
+        knownDiseaseList.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+        knownDiseaseslistItems = getResources().getStringArray(R.array.vitaminDefArr);
+        ArrayAdapter<String> deficiencyVitaminAdapter = new ArrayAdapter<String>(this,R.layout.multipleitemselection,R.id.txt_mul_lst,knownDiseaseslistItems);
+        knownDiseaseList.setAdapter(deficiencyVitaminAdapter);
     }
 
 
