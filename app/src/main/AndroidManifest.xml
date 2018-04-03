@@ -20,7 +20,9 @@
         <activity
             android:name=".ProteinIntake"
             android:label="@string/title_activity_protein_intake"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Home" />
+        <activity android:name=".HealthProfile"></activity>
     </application>
 
 </manifest>

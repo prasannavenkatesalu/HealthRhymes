@@ -2,6 +2,8 @@
     <string name="app_name">Rhymes Of Health</string>
     <string name="health_information">Health Information</string>
     <string name="protein_intake">Protein Intake</string>
+    <string name="orderHealthRhymes_button_text">Order Health Rhymes</string>
+    <string name="makeHealthRhymes_button_text">Make Health Rhymes</string>
     <string name="next_button_text">Next</string>
 
     <string name="hi_1">Do you have any allergy \ntowards the following products?</string>
@@ -15,7 +17,6 @@
     <string name="hi_3">Do you consume Alcohol?</string>
     <string name="hi_4">Do you suffer from any one of \nthe following known \ndiseases/symptoms?</string>
     <string-array name="knownDiseasesArr">
-        <item>None of the Below</item>
         <item>Diabetes- Type l</item>
         <item>Diabetes- Type ll</item>
         <item>Hypertension</item>
@@ -38,6 +39,7 @@
         <item>Protein Energy Malnutrition</item>
         <item>Muscle Weakness</item>
         <item>Sleeplessness</item>
+        <item>None of the Above</item>
 
     </string-array>
 
@@ -64,5 +66,19 @@
     <string name="title_activity_protein_intake">ProteinIntake</string>
     <string name="protein_table_MoS">Enter Your Amount of Protein In Common Food</string>
 
+
+    <string name="introduction1"><b>Introduction</b> \n\n <b>Health Rhymes</b> is a business production strategy that typically allows consumers to purchase products that are customized to their specifications. This strategy only manufactures the end product once the customer places the order, creating additional wait time for the consumer to receive the product but allowing for more flexible customization compared to purchasing directly from retailers&#39; shelves.</string>
+
+    <string-array name="healthProfileArr">
+        <item>Name</item>
+        <item>Date</item>
+        <item>Age</item>
+        <item>GENDER</item>
+        <item>HEIGHT</item>
+        <item>WEIGHT</item>
+        <item>FOOD HABIT</item>
+        <item>PERSONAL HEALTH HISTORY</item>
+        <item>FAMILY HEALTH HISTORY</item>
+    </string-array>
 
 </resources>

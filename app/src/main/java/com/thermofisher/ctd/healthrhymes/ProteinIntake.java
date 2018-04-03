@@ -1,5 +1,6 @@
 package com.thermofisher.ctd.healthrhymes;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -166,4 +167,11 @@ public class ProteinIntake extends AppCompatActivity {
             }
 
         }
+
+    public void displayHomePage(View v) {
+
+        Intent intent = new Intent(this,Home.class);
+        startActivity(intent);
+
+    }
 }
